@@ -6,6 +6,7 @@ import java.util.Optional;
 
 import com.apps.org.models.Tutorial;
 import com.apps.org.repositories.TutorialRepository;
+import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -30,6 +31,7 @@ public class TutorialController {
   TutorialRepository tutorialRepository;
 
   @GetMapping("/tutorials")
+  @Operation(summary = "Find all tutorials")
   public ResponseEntity<List<Tutorial>> getAllTutorials(@RequestParam(required = false) String title) {
     try {
       List<Tutorial> tutorials = new ArrayList<Tutorial>();
