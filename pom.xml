@@ -55,11 +55,11 @@
 			<version>3.0.0</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.apps.org</groupId>
-			<artifactId>crudswagvalid</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.apps.org</groupId>-->
+<!--			<artifactId>crudswagvalid</artifactId>-->
+<!--			<version>0.0.1-SNAPSHOT</version>-->
+<!--		</dependency>-->
 	</dependencies>
 <!--	<repositories>-->
 <!--		<repository>-->
