@@ -5,6 +5,14 @@ microservices with swagger and validations
 ## Swagger UI- OpenAPI documentation:
 http://localhost:8082/swagger-ui/index.html
 
+## GIT
+<ul>
+<li>git init</li>
+<li>git add README.md</li>
+<li>git status</li>
+<li>git reset</li>
+</ul>
+
 ## Docker
 <ul>
 <li>docker ps</li>
@@ -26,4 +34,5 @@ uses deployment.yaml"\
 <li>kubectl get namespaces</li>
 <li>kubectl create -f admin/namespace-dev.yaml</li>
 <li>kubectl create -f admin/namespace-prod.yaml</li>
+<li>kubectl describe pod crudswagvalid-dfb5db989-dmq2z --namespace dev</li>
 </ul>
